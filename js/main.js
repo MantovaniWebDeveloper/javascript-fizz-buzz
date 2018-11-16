@@ -17,6 +17,7 @@ while (numero <= 100) {
   // al posto del numero si stampi frizz buzz
   if (multiploCinque == 0 && multiploTre == 0) {
     console.log("FizzBuzz");
+
   }
   else if (multiploCinque == 0) {
     //arrivando ai numeri multipli di 5 stampi fiz al posto

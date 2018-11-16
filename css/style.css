@@ -9,7 +9,7 @@ body {
 }
 .contanier {
   width: 80%;
-  height: 100vh;
+  height: 800px;
   margin: 0 auto;
   background-color: #a9ef91;
 }
@@ -24,6 +24,8 @@ body {
 }
 .wrapContenuti  {
   display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 #wrapElencoNumeri h2{
   text-align: center;
@@ -39,4 +41,23 @@ body {
   padding: 10px;
   margin-left: 5px;
   margin-top: 5px;
+}
+#contenitoreRisultati {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 300px;
+}
+#risultatiNumeri3 {
+  background-color: red;
+  width: 100%;
+}
+#risultatiNumeri5 {
+  background-color: yellow;;
+  width: 100%;
+}
+#risultatiNumeriUguali{
+  background-color: blue;;
+  width: 100%;
 }
