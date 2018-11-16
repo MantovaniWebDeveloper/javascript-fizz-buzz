@@ -1,4 +1,9 @@
 //scrivere una serie di numeri da 1 a 100
+var numero = 1;
+while (numero <= 100) {
+  console.log(numero);
+  numero ++;
+}
 
 //arrivando ai numeri multipli di 3 stampi fiz al posto
 //del numero stesso
