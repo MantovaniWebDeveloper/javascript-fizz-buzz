@@ -2,6 +2,10 @@
 var numero = 1;
 var multiploTre = 0;
 var multiploCinque = 0;
+/**ARRAY PER INTERFACCIA**/
+var arrayTreCinque = [];
+var arrayCinque = [];
+var arrayTre = [];
 
 while (numero <= 100) {
   console.log(numero);
@@ -9,6 +13,7 @@ while (numero <= 100) {
   document.getElementById('elencoNumeri').innerHTML +=
   `<li>` + numero +`</li>`
   multiploTre = numero % 3;
+  console.log(multiploTre);
   multiploCinque = numero % 5;
 
   console.log("multiplo 3: " + multiploTre);
@@ -17,18 +22,32 @@ while (numero <= 100) {
   // al posto del numero si stampi frizz buzz
   if (multiploCinque == 0 && multiploTre == 0) {
     console.log("FizzBuzz");
-
+    arrayTreCinque.push(numero);
   }
   else if (multiploCinque == 0) {
     //arrivando ai numeri multipli di 5 stampi fiz al posto
     //del numero stesso
     console.log("Buzz");
+    arrayCinque.push(numero);
   }
   else  {
     //arrivando ai numeri multipli di 3 stampi fiz al posto
     //del numero stesso
     console.log("Fizz");
+    if (multiploTre == 0){
+      arrayTre.push(numero);
+    }
   }
 
   numero ++;
+}
+
+/*PARTE OPZIONALE*/
+console.log(arrayTreCinque);
+console.log(arrayCinque);
+console.log(arrayTre);
+
+for (var i = 0; i < arrayTre.length; i++) {
+  document.getElementById('elencoNumeri3').innerHTML +=
+  `<li>` + arrayTre[i] +`</li>`
 }
