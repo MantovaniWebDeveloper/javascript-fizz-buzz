@@ -1,7 +1,13 @@
 //scrivere una serie di numeri da 1 a 100
 var numero = 1;
+var multiploTre = 0;
 while (numero <= 100) {
   console.log(numero);
+  multiploTre = numero % 3;
+  console.log("multiplo: " + multiploTre);
+  if (multiploTre == 0) {
+    console.log("friz");
+  }
   numero ++;
 }
 
