@@ -5,7 +5,9 @@ var multiploCinque = 0;
 
 while (numero <= 100) {
   console.log(numero);
-  
+  //stampo in html i numeri
+  document.getElementById('elencoNumeri').innerHTML +=
+  `<li>` + numero +`</li>`
   multiploTre = numero % 3;
   multiploCinque = numero % 5;
 

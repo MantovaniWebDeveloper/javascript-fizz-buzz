@@ -22,15 +22,21 @@ body {
   font-size: 50px;
   text-align: center;
 }
-.wrapContenuti {
+.wrapContenuti  {
   display: flex;
-  height: 500px;
 }
-#wrapElencoNumeri {
-  background-color: red;
-  height: 500px
+#wrapElencoNumeri h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#wrapRisultati {
-  background-color: yellow;
-  height: 500px;
+#wrapElencoNumeri ul {
+}
+#wrapElencoNumeri ul li {
+  display: inline-flex;
+  list-style-type: none;
+  background-color: white;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
