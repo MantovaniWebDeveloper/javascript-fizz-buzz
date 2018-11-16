@@ -51,3 +51,11 @@ for (var i = 0; i < arrayTre.length; i++) {
   document.getElementById('elencoNumeri3').innerHTML +=
   `<li>` + arrayTre[i] +`</li>`
 }
+for (var i = 0; i < arrayCinque.length; i++) {
+  document.getElementById('elencoNumeri5').innerHTML +=
+  `<li>` + arrayCinque[i] +`</li>`
+}
+for (var i = 0; i < arrayTreCinque.length; i++) {
+  document.getElementById('elencoNumeriUguali').innerHTML +=
+  `<li>` + arrayTreCinque[i] +`</li>`
+}

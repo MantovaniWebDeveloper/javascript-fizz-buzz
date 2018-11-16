@@ -54,9 +54,33 @@ body {
 #risultatiNumeri3 {
   width: 100%;
 }
+#risultatiNumeri3 ul li {
+  display: inline-flex;
+  list-style-type: none;
+  background-color: yellow;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
 #risultatiNumeri5 {
   width: 100%;
 }
+#risultatiNumeri5 ul li {
+  display: inline-flex;
+  list-style-type: none;
+  background-color: orange;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
 #risultatiNumeriUguali{
   width: 100%;
+}
+#risultatiNumeriUguali ul li {
+  display: inline-flex;
+  list-style-type: none;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
