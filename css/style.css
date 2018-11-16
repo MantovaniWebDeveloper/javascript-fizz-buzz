@@ -1,0 +1,36 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: lightgrey;
+}
+.contanier {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #a9ef91;
+}
+#wrapperTitolo {
+  background-color: #77bc62;
+}
+#wrapperTitolo h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.wrapContenuti {
+  display: flex;
+  height: 500px;
+}
+#wrapElencoNumeri {
+  background-color: red;
+  height: 500px
+}
+#wrapRisultati {
+  background-color: yellow;
+  height: 500px;
+}
