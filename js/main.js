@@ -49,13 +49,13 @@ console.log(arrayTre);
 
 for (var i = 0; i < arrayTre.length; i++) {
   document.getElementById('elencoNumeri3').innerHTML +=
-  `<li>` + arrayTre[i] +`</li>`
+  `<li>` + arrayTre[i] + " </br>Fizz " +`</li>`
 }
 for (var i = 0; i < arrayCinque.length; i++) {
   document.getElementById('elencoNumeri5').innerHTML +=
-  `<li>` + arrayCinque[i] +`</li>`
+  `<li>` + arrayCinque[i] + " </br>Buzz " +`</li>`
 }
 for (var i = 0; i < arrayTreCinque.length; i++) {
   document.getElementById('elencoNumeriUguali').innerHTML +=
-  `<li>` + arrayTreCinque[i] +`</li>`
+  `<li>` + arrayTreCinque[i] + " </br>Fizz Buzz " +`</li>`
 }
